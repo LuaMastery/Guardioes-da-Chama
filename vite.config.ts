@@ -6,7 +6,7 @@ import { viteSingleFile } from 'vite-plugin-singlefile';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: './', // Configuração essencial para o GitHub Pages (caminhos relativos)
+      base: '/Guardioes-da-Chama/', // Configuração essencial para o GitHub Pages
       server: {
         port: 3000,
         host: '0.0.0.0',
